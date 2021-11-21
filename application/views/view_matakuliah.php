@@ -26,14 +26,24 @@
                         Kode MTK
                     </th>
                     <th>:</th>
-                    <td><input type="text" name="kode" id="kode"></td>
+                    <td><input type="text" name="kode" id="kode" placeholder="Required"></td>
+                </tr>
+                <tr align="center">
+                    <th colspan="3">
+                        <i style="color: red;"><?= form_error('kode'); ?> </i>
+                    </th>
                 </tr>
                 <tr>
                     <th>
                         Nama MTK
                     </th>
                     <th>:</th>
-                    <td><input type="text" name="nama" id="nama"></td>
+                    <td><input type="text" name="nama" id="nama" placeholder="Required"></td>
+                </tr>
+                <tr align="center">
+                    <th colspan="3">
+                        <i style="color: red;"><?= form_error('nama'); ?> </i>
+                    </th>
                 </tr>
                 <tr>
                     <th>SKS</th>
